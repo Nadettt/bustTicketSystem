@@ -58,10 +58,9 @@ public class Ticket implements TicketInterface {
 
     @Override
     public String toString() {
-        return "The ticket with ID: " + ticketSerialNumber +
-                "belongs to " + ticketHolder +
-                "departing from " + departure +
-                "arriving to " + destination ;
+        return "" + ticketSerialNumber + "\n" +
+                " going from " + departure + "\n" +
+                " to " + destination;
     }
 }
 

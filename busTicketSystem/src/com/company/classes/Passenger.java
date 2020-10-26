@@ -40,9 +40,9 @@ public class Passenger implements PassengerInterface {
 
     @Override
     public String toString() {
-        return "Passenger" + name + "/n" +
-                "born on " + dob + "/n" +
-                "and address " + address + "/n" +
+        return "Passenger " + name + "\n" +
+                "born on " + dob + "\n" +
+                "and address " + address + "\n" +
                 "is the holder of ticket " + tickets;
     }
 }

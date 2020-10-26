@@ -101,7 +101,7 @@ public class Bus implements BusInterface {
 
     @Override
     public String toString() {
-        return "Passengers on route " + departure + " to " + destination + " are ";
+        return "Passengers on route " + departure + " to " + destination + " are " ;
     }
 
     public String getDeparture() {
